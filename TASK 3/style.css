@@ -1,0 +1,32 @@
+
+*{
+  margin: 5px 5px;
+  justify-content: center;
+  align-items: center;
+
+}
+.cent{
+  text-align: center;
+}
+
+.bluebg{
+  background-color: blue;
+}
+
+input{width:280px;height:40px;font-size: 25px;}
+
+button{
+  padding: 30px;
+  border: 2px solid green;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.c1{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  max-width: 300px;;
+}
+button:hover{background-color: cyan;}
